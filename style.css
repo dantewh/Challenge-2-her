@@ -37,6 +37,7 @@ body{
 }
 
 h1{
+    padding-top: 50px;
     font-size: 24px;
 }
 
@@ -44,6 +45,10 @@ h1{
     color: white;
    
     font-weight: bold;
+}
+
+#message{
+    font-size: 20px;
 }
 .main{
     position: relative;
@@ -67,8 +72,8 @@ h1{
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     overflow: hidden;
     border-radius: 250px;
     border: 10px solid #111;
@@ -236,7 +241,8 @@ h1{
     font-size: 42px;
     }
     #message{
-        font-size: 32px;f
+        font-size: 32px;
+        padding-bottom: 100px;
     }
     
     .main{
@@ -269,14 +275,10 @@ h1{
     padding: 22px;
     }
     
-    header{
-        margin-top: 50px;
+    
+    #message{
+        padding-bottom: 200px;
     }
 }
 
-@media (min-width: 1200px) {
-  
-    
-    
-    
-}
+
